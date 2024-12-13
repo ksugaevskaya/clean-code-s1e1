@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .eisenhower-matrix {
     text-align: center;
   }
@@ -93,7 +93,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.task:focus {
   color: #333;
 }
 
@@ -125,7 +125,7 @@ li > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
