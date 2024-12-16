@@ -145,7 +145,7 @@
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.tasks-list .input-text {
   display: none;
 }
 
