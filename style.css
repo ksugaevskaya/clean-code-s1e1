@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.eisenhower-matrix-img {
+.eisenhower-matrix__img {
   width: 100%;
 }
 
-.eisenhower-matrix .more-info {
+.eisenhower-matrix__info {
   font-family: fantasy, cursive;
 }
 
