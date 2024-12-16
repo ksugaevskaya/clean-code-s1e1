@@ -80,7 +80,7 @@ h3 {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
