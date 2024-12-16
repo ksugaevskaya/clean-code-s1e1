@@ -19,6 +19,8 @@ var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
 
+    listItem.className="list";
+
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
@@ -55,6 +57,7 @@ var createNewTaskElement=function(taskString){
     listItem.appendChild(editInput);
     listItem.appendChild(editButton);
     listItem.appendChild(deleteButton);
+    
     return listItem;
 }
 
