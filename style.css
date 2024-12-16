@@ -124,17 +124,17 @@
   width: 226px;
 }
 
-li > input[type="text"] {
+.list > .input-text {
   width: 226px;
 }
 
-.delete img {
+.delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .img:hover {
   transform: rotateZ(0);
 }
 
@@ -149,7 +149,7 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
