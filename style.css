@@ -117,7 +117,7 @@
   margin: 0 10px;
 }
 
-label {
+.label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -139,7 +139,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -154,6 +154,6 @@ ul li input[type=text] {
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode .label {
   display: none;
 }
