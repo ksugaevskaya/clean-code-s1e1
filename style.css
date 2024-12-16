@@ -51,10 +51,6 @@ li, h3 {
   list-style: none;
 }
 
-input, .button {
-  outline: none;
-}
-
 .button {
   background: none;
   border: 0px;
@@ -63,6 +59,7 @@ input, .button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
 .button:hover {
@@ -91,6 +88,7 @@ h3 {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline: none;
 }
 
 .task:focus {
